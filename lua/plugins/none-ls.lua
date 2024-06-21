@@ -13,6 +13,16 @@ return {
       nls.builtins.formatting.htmlbeautifier,
       nls.builtins.diagnostics.rubocop,
       nls.builtins.formatting.rubocop,
+      --       nls.builtins.diagnostics.rubocop.with({
+      --   command = "bundle",
+      --   args = { "exec", "rubocop", "--format", "json", "--force-exclusion" },
+      --   source = "ruby",
+      -- }),
+      -- nls.builtins.formatting.rubocop.with({
+      --   command = "bundle",
+      --   args = { "exec", "rubocop", "--auto-correct" },
+      --   source = "ruby",
+      -- }),
       -- nls.builtins.diagnostics.rubocop.with({
       --   command = "bundle",
       --   args = { "exec", "rubocop", "--format", "json", "--force-exclusion" },
