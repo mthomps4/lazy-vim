@@ -11,8 +11,8 @@ return {
       --  TODO only if installed...
       -- nls.builtins.diagnostics.erb_lint,
       nls.builtins.formatting.htmlbeautifier,
-      -- nls.builtins.diagnostics.rubocop,
-      -- nls.builtins.formatting.rubocop,
+      nls.builtins.diagnostics.rubocop,
+      nls.builtins.formatting.rubocop,
       -- nls.builtins.diagnostics.rubocop.with({
       --   command = "bundle",
       --   args = { "exec", "rubocop", "--format", "json", "--force-exclusion" },
