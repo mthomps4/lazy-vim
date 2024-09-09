@@ -11,7 +11,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
-    { "LazyVim/LazyVim",                                     import = "lazyvim.plugins" },
+    { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- use mini.starter instead of alpha
     { import = "lazyvim.plugins.extras.ui.mini-starter" },
     -- CODING EXTRAS
