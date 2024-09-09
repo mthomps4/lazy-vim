@@ -16,7 +16,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.ui.mini-starter" },
     -- CODING EXTRAS
     { import = "lazyvim.plugins.extras.coding.mini-surround" },
-    { import = "lazyvim.plugins.extras.coding.copilot" },
+    -- { import = "lazyvim.plugins.extras.coding.copilot" },
     -- EDITOR EXTRAS
     { import = "lazyvim.plugins.extras.editor.refactoring" },
     -- Language Support
